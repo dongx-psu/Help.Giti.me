@@ -53,5 +53,5 @@ Windows用户请在Git Bash中完成操作，Linux和OSX用户请在Terminal中�
 	`ssh git@giti.me expand`
 *	运行如下指令可以查询您的系统授权  
 	`ssh git@giti.me info`
-*	git标准命令速查  
+*	git常用命令速查  
 [![Git命令速查](cheatsheet.png)](cheatsheet.png)
