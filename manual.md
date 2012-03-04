@@ -24,7 +24,7 @@ Windows用户请在Git Bash中完成操作，Linux和OSX用户请在Terminal中�
 	登录Giti.me，选择添加SSH Key。将您生成好的SSH Key复制到标识为key的文本框中，并为它起一个标题。最后点击Add Key以保存SSH Key。
 	
 4.	测试一下  
-	运行`$ ssh -T git@github`，若您看到了欢迎信息和版本库授权信息，则说明您的配置成功了。
+	运行`$ ssh -T git@giti.me`，若您看到了欢迎信息和版本库授权信息，则说明您的配置成功了。
 	
 5.	设置个人信息  
 	运行如下命令来修改您的名字和email  
