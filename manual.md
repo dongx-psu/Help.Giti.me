@@ -49,7 +49,7 @@ Windows用户请在Git Bash中完成操作，Linux和OSX用户请在Terminal中�
 
 3.  授权其他用户参与开发  
 	`$ ssh git@giti.me setperms username/repo.git`  
-	`RW+ = other_username`  
+	`RW = other_username`  
 	`^D`  
 
 用户命令速查
