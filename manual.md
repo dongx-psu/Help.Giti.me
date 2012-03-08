@@ -48,11 +48,9 @@ Windows用户请在Git Bash中完成操作，Linux和OSX用户请在Terminal中�
 	`$ git push origin master`
 
 3.  授权其他用户参与开发
-<pre><code>
-	`$ ssh git@giti.me setperms username/repo.git`
-	`RW+ = other_username`
+	`$ ssh git@giti.me setperms username/repo.git`\\
+	`RW+ = other_username`\\
 	`^D`
-</code></pre>
 
 用户命令速查
 ---------------
