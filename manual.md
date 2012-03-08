@@ -46,7 +46,12 @@ Windows用户请在Git Bash中完成操作，Linux和OSX用户请在Terminal中�
 	`$ git commit -m "first commit"`  
     `$ git remote add origin git@giti.me:username/repo.git`  
 	`$ git push origin master`
-	
+
+3.  授权其他用户参与开发
+  `$ ssh git@giti.me setperms username/repo.git`
+  `RW+ = other_username`
+  `^D`
+
 用户命令速查
 ---------------
 * 	运行如下指令可以查询您可访问的版本库以及授权信息  
