@@ -29,7 +29,7 @@ Windows用户请在Git Bash中完成操作，Linux和OSX用户请在Terminal中�
 5.	设置个人信息  
 	运行如下命令来修改您的名字和email  
 	`git config --global user.name "Your Name"`  
-	`git config --global user.name your_email@youremail.com`  
+	`git config --global user.email your_email@youremail.com`  
 
 建立一个新的版本库
 ------------------
@@ -60,3 +60,4 @@ Windows用户请在Git Bash中完成操作，Linux和OSX用户请在Terminal中�
 	`ssh git@giti.me info`
 *	git常用命令速查  
 [![Git命令速查](cheatsheet.png)](cheatsheet.png)
+
