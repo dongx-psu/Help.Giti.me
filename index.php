@@ -8,7 +8,7 @@
 <body>
 <?php
 require 'markdown.php';
-echo Markdown(file_get_contents('manual.md'));
+echo Markdown(file_get_contents('Tutorial.md'));
 ?>
 </body>
 </html>
