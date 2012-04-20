@@ -71,6 +71,18 @@ Giti.me常用命令
 		接下来执行`git push origin master`，即可将您提交的修改推送到服务端。    
 -	__更新本地版本库__  
 	`git pull origin master`  
+-   __分支操作__    
+	您可以通过`git branch BRANCH`命令来建立一个名为BRANCH的分支  
+	建立分支之后可以通过`git branch`命令来查看所有已存在的分支  
+	`git checkout BRANCH`可以检出名为BRANCH的分支，使其成为当前操作分支  
+	您也可以通过`git merge BRANCH`操作将BRANCH分支和当前操作分支进行合并。    
+-   __回滚操作__    
+	如果想撤销提交内容，使得版本库回滚到之前的某个版本，您将会用到以下命令：  
+	`git revert ID`命令可以让您撤销commit编号为ID的提交内容。     
+	**需要注意的是revert命令只是撤销一次提交的内容，并不是将版本库恢复到该次提交之前**   
+	想要找到每一次提交的commit编号,请使用`git log`命令。该命令将列出当前版本库所有的提交记录，在每一个提交记录中紧跟commit字样的SHA值即为该次提交的commit编号。在使用revert命令时不必要将commit编号输入完整，只需输入前6~8位即可。   
+	若想撤销最近一次提交，可以直接使用`git revert HEAD`命令。   
+	如果想将版本库直接回滚到之前的某一个版本（即要撤销所有这个版本之后的提交），您可以使用`git reset ID`命令，将版本库回滚到commit编号为ID的提交之前的版本。    
 -	__推荐资料__  
 	想学习更多有关Git命令和原理的知识，您可以访问：  
 	*	[使用 Git 管理源代码](http://www.ibm.com/developerworks/cn/linux/l-git/)
