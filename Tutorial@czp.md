@@ -8,7 +8,7 @@
 		通常，我们还会建立一个README文件简单描述当前版本库，可以在图形界面中完成这一任务，也可以使用bash语句： `$ touch README`  
 		至此，我们在本地创立了一个版本库并创建了一个文件，接下来，我们需要将该版本库提交到服务端  
 	*	降版本库提交至服务端  
-		使用`$ git remote add origin git@giti.me:username/repo.git`将版本库提交至服务端，该命令中username为您在giti.me的用户名，repo为版本库名，即上一部中建立的文件夹名  
+		使用`$ git remote add origin git@giti.me:username/repo.git`将版本库提交至服务端，该命令中username为您在giti.me的用户名，repo为版本库名，即上一步中建立的文件夹名  
 		使用`ssh git@giti.me expand`命令查询您可访问的版本库以及授权信息，可以看到您刚刚创建的版本库已出现在其中  
 		此时，由于未将README加入本地版本库，所以README既不在本地版本库中，也不在服务端版本库中  
 	*	提交修改至本地版本库  
@@ -42,4 +42,4 @@
 		*	显示远程仓库，加-v选项可显示仓库地址 `$ git remote [-v]`  
 		*	更名，old_name为原版本库名，new_name为新名字 `$ git remote rename old_name new_name`  
 		*	删除远程仓库，repo_name为版本库名 `$ git remote rm repo_name`  
-		*	查看远程仓库信息，reop_name为版本库名 `$ git remote show repo_name`  
+		*	查看远程仓库信息，repo_name为版本库名 `$ git remote show repo_name`  
